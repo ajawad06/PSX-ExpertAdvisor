@@ -1,4 +1,4 @@
-# 🤖 PSX ExpertAdvisor: An Intelligent Trading System
+# 🤖 PSX-ExpertAdvisor: An Intelligent Trading System
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/Framework-Streamlit-red.svg)](https://streamlit.io/)
