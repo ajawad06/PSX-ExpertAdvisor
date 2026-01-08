@@ -5,13 +5,13 @@
 [![Market](https://img.shields.io/badge/Market-PSX-green.svg)](https://www.psx.com.pk/)
 
 
-**PSX ExpertAdvisor** is a rule-based expert system providing explainable, logic-driven investment recommendations for the **Pakistan Stock Exchange**. By encoding financial heuristics into a computational engine, it analyzes market data to categorize stocks as Buy, Sell, or Hold, offering a transparent and professional alternative to "black-box" models.
+**PSX ExpertAdvisor** is a rule-based AI expert system that provides transparent, logic-driven trading signals for the **Pakistan Stock Exchange**. It encodes financial heuristics to transform market data into actionable **Buy, Sell, and Hold recommendations**.
 
 > **Course:** Artificial Intelligence
 
 ---
 
-## 🧠 AI Methodology: Expert System
+## 🧠 AI Methodology
 This project implements a **Knowledge-Based System (KBS)**, a branch of Artificial Intelligence that mimics the decision-making ability of a human expert. The AI logic is divided into:
 
 1.  **Fact Base:** Current market price, trading volume, and calculated technical indicators.
