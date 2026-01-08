@@ -4,14 +4,14 @@
 [![Framework](https://img.shields.io/badge/Framework-Streamlit-red.svg)](https://streamlit.io/)
 [![Market](https://img.shields.io/badge/Market-PSX-green.svg)](https://www.psx.com.pk/)
 
-**PSX ExpertAdvisor** is an intelligent decision-support system designed specifically for the Pakistan Stock Exchange (PSX). Unlike traditional "black-box" models, this project utilizes a **Rule-Based AI Architecture (Expert System)** to provide transparent, explainable, and logic-driven investment recommendations.
+
+**PSX ExpertAdvisor** is a rule-based expert system providing explainable, logic-driven investment recommendations for the **Pakistan Stock Exchange**. By encoding financial heuristics into a computational engine, it analyzes market data to categorize stocks as Buy, Sell, or Hold, offering a transparent and professional alternative to "black-box" models.
+
+> **Course:** Artificial Intelligence
 
 ---
 
-## 🚀 Project Overview
-Navigating the stock market requires professional expertise. This project encodes financial heuristics and expert trading knowledge into a computational engine. It fetches data from the PSX and applies complex logical rules to categorize stocks as **Buy**, **Sell**, or **Hold**.
-
-### Key Features
+## 🚀 Key Features
 *   **Real-time Data Integration:** Fetches historical and live ticker data using the `yfinance` API.
 *   **Knowledge-Based Engine:** Uses a robust rule-set including Moving Average Crossovers, RSI (Relative Strength Index), and Volume Analysis.
 *   **Interactive Dashboard:** A modern UI built with a Python-based Streamlit backend and a clean frontend interface.
