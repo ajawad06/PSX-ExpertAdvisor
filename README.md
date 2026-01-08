@@ -1,4 +1,4 @@
-# 🤖 PSX ExpertAdvisor: A Rule-Based Intelligent Trading System
+# 🤖 PSX ExpertAdvisor: An Intelligent Trading System
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/Framework-Streamlit-red.svg)](https://streamlit.io/)
@@ -29,13 +29,17 @@ This project implements a **Knowledge-Based System (KBS)**, a branch of Artifici
 ---
 
 ## 🛠️ Tech Stack
-*   **Backend:** Flask
-*   **AI Architecture:** Rule-Based Expert System
-*   **Data Science:** Pandas, NumPy
-*   **Visualization:** Matplotlib / Plotly
-*   **Web Framework:** Streamlit
-*   **Frontend:** HTML5, CSS3, JavaScript
-
+### Backend
+*   **Language:** Python
+*   **Framework:** Flask
+*   **Data Analysis:** pandas, numpy
+*   **Market Data:** yfinance (Yahoo Finance API)
+*   **Web Scraping & Feeds:** beautifulsoup4, feedparser, requests
+### Frontend
+* **Core:** Vanilla JavaScript (ES6+), HTML5, CSS3
+* **Data Visualization:** Chart.js with chartjs-chart-financial for candlestick charts
+* **Networking:** Axios for API communication
+  
 ---
 
 ## 💻 Installation & Setup
