@@ -42,6 +42,15 @@ This project implements a **Knowledge-Based System (KBS)**, a branch of Artifici
   
 ---
 
+## 📊 How it works
+1. Input: User enters a PSX Ticker symbol (e.g., SYS, LUCK, ENGRO).
+2. Fetch: The system pulls the latest historical data for that specific ticker.
+3. Analyze: The Rule-Engine calculates technical heuristics (RSI, MAs, etc.).
+4. Decision: The Inference Engine checks which rules are met.
+5. Output: The dashboard displays the final signal (Buy/Sell/Hold) along with the reasoning.
+
+---
+
 ## 💻 Installation & Setup
 
 ### Prerequisites
@@ -72,3 +81,5 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+
+---
