@@ -5,5 +5,4 @@ numpy>=1.21.0
 plotly>=5.0.0
 feedparser>=6.0.0
 altair==4.2.2
-beautifulsoup4>=4.9.0
 requests>=2.25.0

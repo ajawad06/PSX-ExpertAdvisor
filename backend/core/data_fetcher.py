@@ -9,7 +9,6 @@ import pandas as pd
 from datetime import datetime, timedelta
 import time
 import requests
-from bs4 import BeautifulSoup
 
 class StockDataFetcher:
     """Fetch stock data for Pakistan Stock Exchange with current day priority"""
