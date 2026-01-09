@@ -328,14 +328,16 @@ def get_stock_news(ticker):
             'success': False,
             'error': str(e)
         }), 500
-
-
+    
 if __name__ == '__main__':
+    import os
+
+    port = int(os.environ.get("PORT", 5000))  # use Railway port if available
     print("=" * 60)
     print("PSX Stock Advisor - Flask API Server (Optimized)")
     print("=" * 60)
-    print("Server starting on http://localhost:5000")
-    print("API Documentation: http://localhost:5000/api/health")
+    print(f"Server starting on http://0.0.0.0:{port}")
+    print(f"API Documentation: http://0.0.0.0:{port}/api/health")
     print("=" * 60)
     
-    app.run(debug=False, host='0.0.0.0', port=5000)
+    app.run(debug=False, host='0.0.0.0', port=port)
