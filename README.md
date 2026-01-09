@@ -21,10 +21,14 @@ This project implements a **Knowledge-Based System (KBS)**, a branch of Artifici
 ---
 
 ## 🚀 Key Features
-*   **Real-time Data Integration:** Fetches historical and live ticker data using the `yfinance` API.
-*   **Knowledge-Based Engine:** Uses a robust rule-set including Moving Average Crossovers, RSI (Relative Strength Index), and Volume Analysis.
-*   **Interactive Dashboard:** A modern UI built with a Python-based Streamlit backend and a clean frontend interface.
-*   **Explainable AI (XAI):** Every recommendation is accompanied by the specific logic/rule that triggered it, ensuring transparency for the user.
+
+- Real-time & historical PSX data via `yfinance`
+- Market scanner to identify trading opportunities
+- Technical stock analysis (MA crossovers, RSI, volume)
+- Rule-based Buy/Sell/Hold signal generation
+- Portfolio builder for risk-aware investment tracking
+- Interactive Dashboard
+- Explainable AI with transparent, rule-backed decisions
 
 ---
 
