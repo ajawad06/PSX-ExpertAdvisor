@@ -58,7 +58,7 @@ This project implements a **Knowledge-Based System (KBS)**, a branch of Artifici
 ## 💻 Installation & Setup
 
 ### Prerequisites
-*   Python 3.10 or higher installed.
+*   Python >= 3.10.
 *   Git installed.
 
 ### 1. Clone the Repository
