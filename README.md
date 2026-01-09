@@ -47,7 +47,7 @@ This project implements a **Knowledge-Based System (KBS)**, a branch of Artifici
 *   **Framework:** Flask
 *   **Data Analysis:** pandas, numpy
 *   **Market Data:** yfinance (Yahoo Finance API)
-*   **Web Scraping & Feeds:** beautifulsoup4, feedparser, requests
+*   **Web Scraping & Feeds:** feedparser, requests
 ### Frontend
 * **Core:** Vanilla JavaScript (ES6+), HTML5, CSS3
 * **Data Visualization:** Chart.js with chartjs-chart-financial for candlestick charts
