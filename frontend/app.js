@@ -7,7 +7,7 @@ const API_BASE_URL =
   window.location.hostname === "localhost" ||
   window.location.hostname === "127.0.0.1"
     ? "http://localhost:5000/api"
-    : "https://YOUR-RENDER-SERVICE.onrender.com/api";
+    : "https://psx-expertadvisor-api.onrender.com/api";
 
 // State Management
 const state = {
