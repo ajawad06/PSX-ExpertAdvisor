@@ -12,7 +12,7 @@
 ---
 
 ## 🧠 AI Methodology
-This project implements a **Knowledge-Based System (KBS)**, a branch of Artificial Intelligence that mimics the decision-making ability of a human expert. The AI logic is divided into:
+This project implements a **Knowledge-Based System (KBS)**; a branch of Artificial Intelligence that mimics the decision-making ability of a human expert. The AI logic is divided into:
 
 1.  **Fact Base:** Current market price, trading volume, and calculated technical indicators.
 2.  **Rule Base:** A collection of "IF-THEN" statements derived from technical analysis strategies.
