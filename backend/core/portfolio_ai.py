@@ -132,7 +132,7 @@ class PortfolioAI:
         NOW INCLUDES ALL STOCKS WITH BUY SIGNALS!
         """
         print(f"\n{'='*60}")
-        print(f"💼 Generating Portfolio - Budget: PKR {budget:,.0f}")
+        print(f"[PORTFOLIO] Generating Portfolio - Budget: PKR {budget:,.0f}")
         print(f"Risk Level: {risk_level.upper()}")
         print(f"{'='*60}\n")
         
@@ -140,7 +140,7 @@ class PortfolioAI:
         # Use min_confidence=0 to get ALL BUY signals regardless of confidence
         buy_opportunities = self.scan_market_for_opportunities(min_confidence=0)
         
-        print(f"✅ Found {len(buy_opportunities)} stocks with BUY signals (Ignoring confidence threshold)\n")
+        print(f"[OK] Found {len(buy_opportunities)} stocks with BUY signals (Ignoring confidence threshold)\n")
         
         if not buy_opportunities:
             return {
@@ -154,14 +154,14 @@ class PortfolioAI:
         selected_stocks = buy_opportunities  # Use ALL instead of limiting
         num_stocks = len(selected_stocks)
         
-        print(f"📊 Splitting investment across ALL {num_stocks} BUY stocks:\n")
+        print(f"[INFO] Splitting investment across ALL {num_stocks} BUY stocks:\n")
         for stock in selected_stocks:
-            print(f"   ✓ {stock['ticker']}: {stock['confidence']}% confidence")
+            print(f"   - {stock['ticker']}: {stock['confidence']}% confidence")
         
         # Step 3: EQUAL ALLOCATION across all BUY stocks
         allocation_per_stock = budget / num_stocks
         
-        print(f"\n💰 Allocation: PKR {allocation_per_stock:,.2f} per stock\n")
+        print(f"\n[INFO] Allocation: PKR {allocation_per_stock:,.2f} per stock\n")
         
         # Step 4: Calculate shares to buy
         portfolio_items = []
@@ -189,7 +189,7 @@ class PortfolioAI:
                     'signals': stock['signals']
                 })
                 
-                print(f"   ✅ {stock['ticker']}: {shares} shares @ PKR {price:.2f} = PKR {investment:,.2f}")
+                print(f"   [OK] {stock['ticker']}: {shares} shares @ PKR {price:.2f} = PKR {investment:,.2f}")
         
         # Recalculate percent
         for item in portfolio_items:
@@ -206,7 +206,7 @@ class PortfolioAI:
         }
         
         print(f"\n{'='*60}")
-        print(f"✅ Portfolio Generated!")
+        print(f"[OK] Portfolio Generated!")
         print(f"Total Stocks: {len(portfolio_items)}")
         print(f"Total Invested: PKR {total_invested:,.2f}")
         print(f"Cash Remaining: PKR {budget - total_invested:,.2f}")

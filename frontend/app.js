@@ -3,7 +3,11 @@
 // ============================================================================
 
 // Configuration
-const API_BASE_URL = "https://psx-expertadvisor-production.up.railway.app/api";
+const API_BASE_URL =
+  window.location.hostname === "localhost" ||
+  window.location.hostname === "127.0.0.1"
+    ? "http://localhost:5000/api"
+    : "https://YOUR-RENDER-SERVICE.onrender.com/api";
 
 // State Management
 const state = {
